@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#navbar {
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#navbar li {
+    float: left;
+}
+
+#navbar li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar li a:hover {
+    background-color: #ddd;
+}
+
+/* Responsive layout - makes the navbar items stack vertically instead of horizontally on small screens */
+@media screen and (max-width: 600px) {
+    #navbar li {
+        float: none;
+    }
+}
